@@ -1,0 +1,70 @@
+#nav
+{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu1
+{
+	border: 2px solid red;
+}
+
+.menu2
+{
+	border: 2px solid blue;
+}
+
+.menu3
+{
+	border: 2px solid green;
+}
+
+.menu4
+{
+	border: 2px solid yellow;
+}
+
+#conteneur
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10%;
+	margin-bottom: 2%;
+}
+
+#research
+{
+height: 50px;
+padding: 10px;
+border: none;
+border-radius: 2px;
+outline: none;
+display: flex;
+justify-content: center;
+}
+
+.search-btn
+{
+display: flex;
+margin: 10px;
+}
+
+.footer-left
+{
+	display: flex;
+	justify-content: start;
+	 list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-right
+{
+	display: flex;
+	justify-content: end;
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
